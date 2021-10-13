@@ -46,6 +46,7 @@ arr = [ 12, 11, 13, 5, 6, 7, 50, 32, 434, 1, 3, 5, 6, 7, 50, 32, 434, 1, 3]
 heapSort(arr)
 n = len(arr)
 print ("Sorted array is")
+print ("Sorted array confirmed: ")
 for i in range(n):
 	print ("%d" %arr[i]),
 
